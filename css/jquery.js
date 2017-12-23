@@ -7,7 +7,7 @@ $(document).ready(function(){
   // GET COURSES FROM API
 
     $.ajax({
-        url: 'http://www.mocky.io/v2/5a2f252f2e00000c3e279070',
+        url: 'https://www.mocky.io/v2/5a2f252f2e00000c3e279070',
         dataType: 'jsonp',
         success: function(jpCourses){
 
