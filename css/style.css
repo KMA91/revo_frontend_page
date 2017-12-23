@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
+}
+
+.top-nav {
+  margin: 0 auto;
+  text-align: right;
+  width: 100%;
+  height: 35px;
+  background: #121f3e;
+}
+
+.top-nav-cont, .bottom-nav-cont, .courses-box, .footer-cont {
+  margin: auto;
+  width: 90%;
+}
+
+.top-nav-cont, .bottom-nav-cont {
+  transform: translate(0, 50%)
+}
+
+.top-nav-cont a {
+  letter-spacing: 1px;
+  position: relative;
+  top: 50%;
+  font-size: 0.65rem;
+  color: white;
+}
+
+.bn-links a {
+  font-size: 12px;
+  font-weight: bold;
+  color: #121f3e;
+  margin: 0 1%;
+}
+
+.bn-links a:hover {
+  color: #ef8535;
+}
+
+.bottom-nav {
+  height: 100px;
+}
+
+.bottom-nav-cont img{
+  float: left;
+  height: 2.778rem;
+}
+
+.bn-links {
+  text-align: right;
+}
+
+.bottom-nav-cont img{
+  text-align: right;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 35%;
+  width: 100%;
+}
+
+.courses-box {
+  opacity: 0;
+  height: 100%;
+  text-align: center;
+  padding: 3%;
+}
+
+.courses-box p {
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding: 10px 0;
+  color: #121f3e;
+}
+
+.courses-table {
+  height: 85%;
+  width: 100%;
+  margin: auto;
+  border: 2px solid #eee;
+}
+
+table, th, td {
+  border-bottom: 2px solid #eee;
+}
+
+th, td {
+  color: #121f3e;
+}
+
+tr:not(:first-child):hover {
+  background: #ececec;
+  border: #eee;
+}
+
+footer {
+  height: 30%;
+  background: #eee;
+  margin: 0 auto;
+  text-align: center;
+  color: #666;
+}
+
+footer p {
+  font-weight: 800;
+}
+
+footer a:visited, footer a {
+  color: #666;
+}
+
+footer a:hover {
+  color: #888;
+}
+
+.f-company, .f-services, .f-resources, .f-partners, .f-subscribe {
+  float: left;
+  width: 20%;
+  padding: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button{
+  height: 50px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  background: #ef8535;
+  border: #d66611;
+  border-radius: 3px;
+  color: white;
+}
+
+button:hover {
+  background: #df6a12;
+}
